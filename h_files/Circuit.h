@@ -7,9 +7,9 @@
 #include <complex>
 #include <limits>
 
-#include "Matrix.h"               
-#include "Gates.h"     
-#include "Complex.h"             
+#include "h_files/Matrix.h"
+#include "h_files/Gates.h"
+#include "h_files/Complex.h"           
 
 class Circuit {
 private:
