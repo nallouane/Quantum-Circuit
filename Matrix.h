@@ -24,8 +24,8 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const Matrix& mat);
     friend std::istream& operator>>(std::istream& is, Matrix& mat);
 
-    Complex& operator()(int i, int j);
-    Complex operator()(int i, int j) const;
+    Complex& operator()(int i, int j); //modifcation to take place
+    Complex operator()(int i, int j) const; //promises not to modify the object.
 
     Matrix operator+(const Matrix& other) const;
     Matrix operator-(const Matrix& other) const;

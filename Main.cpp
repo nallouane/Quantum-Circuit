@@ -2,8 +2,8 @@
 #include <memory> 
 #include "Complex.h"
 #include "Matrix.h"
-#include "Circuit.h"
 #include "Gates.h"
+#include "Circuit.h"
 
 int main() {
     
