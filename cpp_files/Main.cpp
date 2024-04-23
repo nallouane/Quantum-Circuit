@@ -1,9 +1,9 @@
 #include <iostream>
 #include <memory> 
-#include "Complex.h"
-#include "Matrix.h"
-#include "Gates.h"
-#include "Circuit.h"
+#include "../h_files/Complex.h"
+#include "../h_files/Matrix.h"
+#include "../h_files/Gates.h"
+#include "../h_files/Circuit.h"
 
 int main() {
     

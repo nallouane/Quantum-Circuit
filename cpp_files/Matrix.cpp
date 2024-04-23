@@ -1,4 +1,4 @@
-#include "Matrix.h"
+#include "../h_files/Matrix.h"
 
 Matrix::Matrix(int nrows, int ncols) :
     rows(nrows), cols(ncols), matrix_data(new Complex[nrows * ncols]) {}

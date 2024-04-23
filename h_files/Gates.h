@@ -3,8 +3,8 @@
 #include <cmath>
 #include <memory>
 #include <iostream>
-#include "h_files/Matrix.h"
-#include "h_files/Complex.h"
+#include "Matrix.h"
+#include "Complex.h"
 
 class QuantumComponent {
 public:

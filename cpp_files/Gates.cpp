@@ -1,4 +1,4 @@
-#include "Gates.h"
+#include "../h_files/Gates.h"
 
 std::shared_ptr<QuantumComponent> QuantumComponentFactory::create(const std::string& name) {
     if (name == "Hadamard") {

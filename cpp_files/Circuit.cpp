@@ -1,4 +1,4 @@
-#include "Circuit.h"
+#include "../h_files/Circuit.h"
 
 
 Circuit::Circuit(int num_qubits) : qubits(num_qubits), stateVector(1 << num_qubits, 1) {        
